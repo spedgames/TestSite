@@ -1,73 +1,507 @@
 [
   {
+    "uploadDate": "2026-04-04",
     "id": "YPpPEoa",
     "title": "Toy Store",
-    "description": "Buy items from toy store using Singapore money",
-    "creatorName": "Teacher Carmina",
     "category": "Numeracy",
-    "compatibility": [
-      "desktop",
-      "tablet",
-      "mobile"
-    ],
+    "description": "Buy items from toy store with Singapore money.",
+    "creatorName": "Teacher Carmina",
     "tags": [
       "money",
       "purchasing"
     ],
-    "isNew": true,
-    "isPopular": false
-  },
-  {
-    "id": "XJNWVWR",
-    "title": "Visuals Mate",
-    "description": "Generate visuals and work systems quickly with this tool.",
-    "creatorName": "Teacher Carmina",
-    "category": "General",
     "compatibility": [
       "desktop",
       "tablet",
       "mobile"
     ],
+    "isNew": false
+  },
+  {
+    "uploadDate": "2026-04-04",
+    "id": "PwbYObx",
+    "title": "Laundry Day",
+    "category": "Daily Living",
+    "description": "Sort whites and coloured clothes.",
+    "creatorName": "Teacher Carmina",
     "tags": [
-      "communication"
+      "self care",
+      "home living"
     ],
-    "isNew": true,
-    "isPopular": false
-  },
-  {
-    "id": "emBYzEJ",
-    "title": "Random Number Generator",
-    "description": "Generate a random number to take away",
-    "creatorName": "Teacher Carmina",
-    "category": "Numeracy",
     "compatibility": [
       "desktop",
       "tablet",
       "mobile"
     ],
+    "isNew": false
+  },
+  {
+    "uploadDate": "2026-04-04",
+    "id": "azmewYq",
+    "title": "Days of the Week",
+    "category": "Numeracy",
+    "description": "Sequence the Days of the Week.",
+    "creatorName": "Teacher Carmina",
+    "tags": [
+      "week"
+    ],
+    "compatibility": [
+      "desktop",
+      "tablet"
+    ],
+    "isNew": false
+  },
+  {
+    "uploadDate": "2026-04-04",
+    "id": "NPbKRzj",
+    "title": "EduGame Prompt Generator V4.0",
+    "category": "General",
+    "description": "Make your own game prompts.",
+    "creatorName": "Teacher Carmina",
+    "tags": [
+      "game making",
+      "tools"
+    ],
+    "compatibility": [
+      "desktop",
+      "tablet",
+      "mobile"
+    ],
+    "isNew": false
+  },
+  {
+    "uploadDate": "2026-04-04",
+    "id": "PwGMBzV",
+    "title": "Counting Fun",
+    "category": "Numeracy",
+    "description": "Guided counting activity to support one-to-one correspondence.",
+    "creatorName": "Teacher Carmina",
     "tags": [
       "numbers",
-      "subtraction"
+      "counting"
     ],
-    "isNew": false,
-    "isPopular": false
+    "compatibility": [
+      "tablet",
+      "mobile"
+    ],
+    "isNew": false
   },
   {
-    "id": "gbLOBXg",
-    "title": "City Crossings",
-    "description": "Cross the roads using the zebra crossings to get to the right building.",
+    "uploadDate": "2026-04-04",
+    "id": "GgjVZoM",
+    "title": "Fraction Fun",
+    "category": "Numeracy",
+    "description": "Learn about numerators with interactive activity.",
     "creatorName": "Teacher Carmina",
-    "category": "Daily Living",
+    "tags": [
+      "fractions",
+      "numerator"
+    ],
     "compatibility": [
       "desktop",
       "tablet",
       "mobile"
     ],
+    "isNew": false
+  },
+  {
+    "uploadDate": "2026-04-04",
+    "id": "bNwmXVd",
+    "title": "Math Quest",
+    "category": "Numeracy",
+    "description": "Get treasure and fight enemies with math!",
+    "creatorName": "Teacher Carmina",
     "tags": [
+      "addition",
+      "subtraction"
+    ],
+    "compatibility": [
+      "desktop",
+      "tablet"
+    ],
+    "isNew": false
+  },
+  {
+    "uploadDate": "2026-04-04",
+    "id": "YPpKEaj",
+    "title": "Restroom Rush",
+    "category": "Daily Living",
+    "description": "Find the correct toilet quickly.",
+    "creatorName": "Teacher Carmina",
+    "tags": [
+      "toileting",
+      "toilet signs"
+    ],
+    "compatibility": [
+      "desktop",
+      "tablet",
+      "mobile"
+    ],
+    "isNew": false
+  },
+  {
+    "uploadDate": "2026-04-04",
+    "id": "ZYBzaGG",
+    "title": "The Hungry Observer",
+    "category": "Literacy",
+    "description": "Complete I eat... sentences.",
+    "creatorName": "Teacher Carmina",
+    "tags": [
+      "sentence construction",
+      "predictable charts"
+    ],
+    "compatibility": [
+      "desktop"
+    ],
+    "isNew": false
+  },
+  {
+    "uploadDate": "2026-04-04",
+    "id": "xbRbJYO",
+    "title": "Sonic Palette",
+    "category": "General",
+    "description": "Try different sounds for your game.",
+    "creatorName": "Teacher Carmina",
+    "tags": [
+      "tool",
+      "game making"
+    ],
+    "compatibility": [
+      "desktop",
+      "tablet",
+      "mobile"
+    ],
+    "isNew": false
+  },
+  {
+    "uploadDate": "2026-04-04",
+    "id": "dPOPEEY",
+    "title": "Progress Palette",
+    "category": "General",
+    "description": "Try different progress bars for your game.",
+    "creatorName": "Teacher Carmina",
+    "tags": [
+      "tool",
+      "game making"
+    ],
+    "compatibility": [
+      "desktop",
+      "tablet",
+      "mobile"
+    ],
+    "isNew": false
+  },
+  {
+    "uploadDate": "2026-04-04",
+    "id": "XJNJQrK",
+    "title": "Button Palette",
+    "category": "General",
+    "description": "Try different buttons for your game.",
+    "creatorName": "Teacher Carmina",
+    "tags": [
+      "tool",
+      "game making"
+    ],
+    "compatibility": [
+      "desktop",
+      "tablet",
+      "mobile"
+    ],
+    "isNew": false
+  },
+  {
+    "uploadDate": "2026-04-04",
+    "id": "NPbqPpQ",
+    "title": "Sound Synth",
+    "category": "General",
+    "description": "Sound buttons and synthesizer.",
+    "creatorName": "Teacher Carmina",
+    "tags": [
+      "tool",
+      "sensory"
+    ],
+    "compatibility": [
+      "desktop",
+      "tablet",
+      "mobile"
+    ],
+    "isNew": false
+  },
+  {
+    "uploadDate": "2026-04-04",
+    "id": "dPObyYJ",
+    "title": "Currency Combiner",
+    "category": "Numeracy",
+    "description": "Combine exact denominations.",
+    "creatorName": "Teacher Carmina",
+    "tags": [
+      "money"
+    ],
+    "compatibility": [
+      "desktop",
+      "tablet",
+      "mobile"
+    ],
+    "isNew": false
+  },
+  {
+    "uploadDate": "2026-04-04",
+    "id": "LEbPbYE",
+    "title": "Identify Emotions",
+    "category": "SEL",
+    "description": "Tap on the correct emotions based on the image shown.",
+    "creatorName": "Teacher Carmina",
+    "tags": [
+      "emotions",
+      "feelings"
+    ],
+    "compatibility": [
+      "desktop",
+      "tablet",
+      "mobile"
+    ],
+    "isNew": false
+  },
+  {
+    "uploadDate": "2026-05-09",
+    "id": "EagqrXa",
+    "title": "Calendar 2026",
+    "category": "Numeracy",
+    "description": "Check the calendar by tapping on the correct date.",
+    "creatorName": "Teacher Nurul",
+    "tags": [
+      "calendar",
+      "date"
+    ],
+    "compatibility": [
+      "desktop",
+      "tablet"
+    ],
+    "isNew": true
+  },
+  {
+    "uploadDate": "2026-05-09",
+    "id": "RNGeqbj",
+    "title": "Restaurant Self-Checkout",
+    "category": "Numeracy",
+    "description": "Pretend play restaurant POS system for practising money skills.",
+    "creatorName": "Teacher Carmina",
+    "tags": [
+      "money",
+      "purchasing",
+      "pretend play"
+    ],
+    "compatibility": [
+      "desktop",
+      "tablet"
+    ],
+    "isNew": true
+  },
+  {
+    "uploadDate": "2026-05-09",
+    "id": "NPRExar",
+    "title": "Supermarket Run",
+    "category": "Numeracy",
+    "description": "Buy items from a shopping list. Pay using exact combination of dollars and cents.",
+    "creatorName": "Teacher Carmina",
+    "tags": [
+      "money",
+      "purchasing",
+      "supermarket"
+    ],
+    "compatibility": [
+      "desktop"
+    ],
+    "isNew": true
+  },
+  {
+    "uploadDate": "2026-05-09",
+    "id": "azmRPvY",
+    "title": "Subtraction Fun",
+    "category": "Numeracy",
+    "description": "Subtraction quiz game with guided modes.",
+    "creatorName": "Teacher Carmina",
+    "tags": [
+      "numbers",
+      "subtraction",
+      "operations"
+    ],
+    "compatibility": [
+      "desktop",
+      "tablet"
+    ],
+    "isNew": true
+  },
+  {
+    "uploadDate": "2026-05-09",
+    "id": "wBzQWmO",
+    "title": "Number Comparison Game",
+    "category": "Numeracy",
+    "description": "Compare sets by using the words \"more\" and \"less\".",
+    "creatorName": "Teacher Carmina",
+    "tags": [
+      "more",
+      "less",
+      "comparison"
+    ],
+    "compatibility": [
+      "tablet"
+    ],
+    "isNew": true
+  },
+  {
+    "uploadDate": "2026-05-09",
+    "id": "RNGqRgM",
+    "title": "More or Less Quiz",
+    "category": "Numeracy",
+    "description": "Tap on the set that is more or less.",
+    "creatorName": "Teacher Carmina",
+    "tags": [
+      "more",
+      "less",
+      "comparison"
+    ],
+    "compatibility": [
+      "tablet"
+    ],
+    "isNew": true
+  },
+  {
+    "uploadDate": "2026-05-09",
+    "id": "yyaZvqp",
+    "title": "Price Match",
+    "category": "Numeracy",
+    "description": "Match notes and coins to the correct price.",
+    "creatorName": "Teacher Carmina",
+    "tags": [
+      "money",
+      "denominations"
+    ],
+    "compatibility": [
+      "desktop",
+      "tablet"
+    ],
+    "isNew": true
+  },
+  {
+    "uploadDate": "2026-05-09",
+    "id": "yyargVv",
+    "title": "Money Quiz",
+    "category": "Numeracy",
+    "description": "Test your skills in identifying the different denominations.",
+    "creatorName": "Teacher Carmina",
+    "tags": [
+      "money",
+      "denominations",
+      "dollar cent symbols"
+    ],
+    "compatibility": [
+      "desktop",
+      "tablet",
+      "mobile"
+    ],
+    "isNew": true
+  },
+  {
+    "uploadDate": "2026-05-09",
+    "id": "YPGddPa",
+    "title": "Addition to 5",
+    "category": "Numeracy",
+    "description": "Practice addition to 5, with or without visual support.",
+    "creatorName": "Teacher Carmina",
+    "tags": [
+      "numbers",
+      "addition",
+      "operations"
+    ],
+    "compatibility": [
+      "desktop",
+      "tablet",
+      "mobile"
+    ],
+    "isNew": true
+  },
+  {
+    "uploadDate": "2026-05-09",
+    "id": "XJNWVWR",
+    "title": "Visuals Mate",
+    "category": "General",
+    "description": "Generate visuals and work systems quickly with this tool.",
+    "creatorName": "Teacher Carmina",
+    "tags": [
+      "desktop",
+      "tablet",
+      "mobile"
+    ],
+    "compatibility": [
+      "communication"
+    ],
+    "isNew": true
+  },
+  {
+    "uploadDate": "2026-05-09",
+    "id": "gbLOBXg",
+    "title": "City Crossings",
+    "category": "Daily Living",
+    "description": "Cross the roads using the zebra crossings to get to the right building.",
+    "creatorName": "Teacher Carmina",
+    "tags": [
+      "desktop",
+      "tablet",
+      "mobile"
+    ],
+    "compatibility": [
       "safety",
       "mobility"
     ],
-    "isNew": false,
-    "isPopular": false
+    "isNew": true
+  },
+  {
+    "uploadDate": "2026-05-09",
+    "id": "wBzbzJy",
+    "title": "Hand Exercises",
+    "category": "Numeracy",
+    "description": "Copy the hand signs to burst the bubbles.",
+    "creatorName": "Teacher Carmina",
+    "tags": [
+      "desktop"
+    ],
+    "compatibility": [
+      "mirroring",
+      "motor planning"
+    ],
+    "isNew": true
+  },
+  {
+    "uploadDate": "2026-05-09",
+    "id": "ogzRYpq",
+    "title": "Magic Counters",
+    "category": "Numeracy",
+    "description": "Make a throwing motion with your hand to \"create\" counters!",
+    "creatorName": "Teacher Carmina",
+    "tags": [
+      "desktop"
+    ],
+    "compatibility": [
+      "numbers",
+      "counting",
+      "give quantity"
+    ],
+    "isNew": true
+  },
+  {
+    "uploadDate": "2026-05-09",
+    "id": "QwKXGRw",
+    "title": "Picture Illustrator",
+    "category": "Numeracy",
+    "description": "Take pictures of your face or environment and sketch!Teacher Carmina",
+    "creatorName": NaN,
+    "tags": [
+      "tablet"
+    ],
+    "compatibility": [
+      "drawing"
+    ],
+    "isNew": true
   }
 ]
