@@ -276,13 +276,13 @@
 
     const avatarSvg = `<div class="creator-avatar"><svg width="12" height="12" viewBox="0 0 24 24" fill="#94a3b8"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg></div>`;
 
-    // Helpers to resolve platforms dynamically
+    // Helpers to resolve platforms dynamically (Now defaults to local folder structure)
     function getGameUrl(game) {
-        return game.url || `https://codepen.io/spedgames/full/${game.id}`;
+        return game.url || `./${game.id}/index.html`;
     }
 
     function getGameThumbnail(game) {
-        return game.thumbnail || `https://codepen.io/spedgames/pen/${game.id}/image/large.png`;
+        return game.thumbnail || `./${game.id}/preview.png`;
     }
 
     async function init() {
@@ -376,11 +376,15 @@
     function openDetails(id) {
         const g = allGames.find(game => game.id === id);
         const fullUrl = getGameUrl(g);
+        
+        // Ensure the QR code generator gets an absolute URL, even if the game URL is relative
+        const absoluteUrl = new URL(fullUrl, window.location.href).href;
+        
         document.getElementById('detail-title').innerText = g.title;
         document.getElementById('detail-desc').innerText = g.description;
         document.getElementById('detail-img').style.backgroundImage = `url('${getGameThumbnail(g)}')`;
         document.getElementById('detail-creator-row').innerHTML = `${avatarSvg}<span class="creator-name">Created by <b>${g.creatorName || 'Instructor'}</b></span>`;
-        document.getElementById('detail-qr').src = `https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${encodeURIComponent(fullUrl)}`;
+        document.getElementById('detail-qr').src = `https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${encodeURIComponent(absoluteUrl)}`;
         document.getElementById('detail-id-label').innerText = `ID: ${id}`;
         const compDiv = document.getElementById('detail-compat');
         compDiv.innerHTML = g.compatibility ? g.compatibility.map(c => `<span class="compat-badge">${c}</span>`).join('') : '<span class="compat-badge">Universal</span>';
