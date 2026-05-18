@@ -34,6 +34,23 @@
     "isNew": true
   },
   {
+    "id": "identify-emotions",
+    "title": "Identify Emotions",
+    "description": "Tap on the correct emotions based on the image shown.",
+    "creatorName": "Teacher Carmina",
+    "category": "SEL",
+    "compatibility": [
+      "desktop",
+      "tablet",
+      "mobile"
+    ],
+    "tags": [
+      "emotions",
+      "regulation"
+    ],
+    "isNew": true
+  },
+  {
     "id": "laundry-day",
     "title": "Laundry Day",
     "description": "Sort whites and coloured clothes.",
