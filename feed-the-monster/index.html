@@ -325,10 +325,10 @@ html,body{width:100%;height:100%;overflow:hidden;background:var(--bg);
 
     <!-- Instruction: "Feed it MORE!" with image -->
     <div class="instruction-cue">
-      <span class="instruction-text">Feed it MORE!</span>
+      <span class="instruction-text">Feed it</span>
       <img class="instruction-more-img" src="assets/more.png" alt="MORE!"
         onerror="this.style.display='none';document.getElementById('moreFallback').style.display='inline-block'">
-      <span class="instruction-more-fallback" id="moreFallback" style="display:none">!</span>
+      <span class="instruction-more-fallback" id="moreFallback" style="display:none">MORE!</span>
     </div>
 
     <!-- ===== SVG MONSTER ===== -->
@@ -519,6 +519,7 @@ let score = 0;
 let canClick = true;
 let correctPlate = '';
 let shuffleMode = ''; // 'random' or 'big'
+let firstTry = true;  // tracks whether this round has had a wrong guess yet
 
 // =============================================
 // EATING SOUND (Web Audio API — no file needed)
@@ -649,6 +650,7 @@ function nextRound() {
   canClick = true;
   closeMouth();
   hideSpeech();
+  firstTry = true; // reset for each new round
 
   document.getElementById('roundDisplay2').textContent = currentRound + ' / ' + totalRounds;
   document.getElementById('progressFill').style.width = ((currentRound-1)/totalRounds*100) + '%';
@@ -687,19 +689,19 @@ function choosePlate(choice) {
   const isCorrect = choice === correctPlate;
 
   if (!isCorrect) {
-    // Wrong: just shake that plate, then let player try again
+    // Wrong: mark that this round is no longer first-try, shake the plate
+    firstTry = false;
     const wrongEl = document.getElementById('plate' + choice);
     wrongEl.classList.add('wrong');
-    // Remove shake class once animation ends so it can re-trigger on another wrong tap
     wrongEl.addEventListener('animationend', () => {
       wrongEl.classList.remove('wrong');
     }, { once: true });
-    return; // do NOT disable canClick — player can keep trying
+    return;
   }
 
-  // Correct answer — lock input and proceed
+  // Correct answer — only score if no wrong guess was made this round
   canClick = false;
-  score++;
+  if (firstTry) score++;
   document.getElementById('plateA').classList.add('disabled');
   document.getElementById('plateB').classList.add('disabled');
   document.getElementById('plate' + correctPlate).classList.add('correct');
