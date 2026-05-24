@@ -325,10 +325,10 @@ html,body{width:100%;height:100%;overflow:hidden;background:var(--bg);
 
     <!-- Instruction: "Feed it MORE!" with image -->
     <div class="instruction-cue">
-      <span class="instruction-text">Feed it</span>
+      <span class="instruction-text">Feed it MORE!</span>
       <img class="instruction-more-img" src="assets/more.png" alt="MORE!"
         onerror="this.style.display='none';document.getElementById('moreFallback').style.display='inline-block'">
-      <span class="instruction-more-fallback" id="moreFallback" style="display:none">MORE!</span>
+      <span class="instruction-more-fallback" id="moreFallback" style="display:none">!</span>
     </div>
 
     <!-- ===== SVG MONSTER ===== -->
@@ -715,7 +715,9 @@ function choosePlate(choice) {
       setTimeout(() => {
         hideSpeech();
         if (currentRound >= totalRounds) {
-          showResults();
+          // Fill the progress bar to 100% and wait for its CSS transition (500ms) before showing results
+          document.getElementById('progressFill').style.width = '100%';
+          setTimeout(showResults, 550);
         } else {
           const overlay = document.getElementById('nextOverlay');
           overlay.classList.add('fade');
