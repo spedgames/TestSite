@@ -17,6 +17,23 @@
     "isNew": false
   },
   {
+    "id": "scoop-shop",
+    "title": "Scoop Shop",
+    "description": "Buy scoops of ice cream and pactice reading prices with dollar and cent symbols.",
+    "creatorName": "Teacher Carmina",
+    "category": "Numeracy",
+    "compatibility": [
+      "desktop",
+      "tablet",
+      "mobile"
+    ],
+    "tags": [
+      "money",
+      "purchasing"
+    ],
+    "isNew": true
+  },
+  {
     "id": "week-letter-sounds",
     "title": "Week Letter Sounds",
     "description": "Identify the intial letter sounds of the days of the week.",
